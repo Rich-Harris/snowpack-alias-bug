@@ -6,13 +6,11 @@ module.exports = {
     public: '/',
     'src/one': '/modules/one',
     'src/two': '/modules/two',
-    'three': '/modules/three',
-    'four': '/modules/four'
+    'three': '/modules/three'
   },
   alias: {
-    '@one': '/modules/one',
-    '@two': '/modules/two',
-    '@three': '/modules/three',
-    '@four': '/modules/four'
+    '@one': './src/one',
+    '@two': './src/two',
+    '@three': './three'
   },
 };
